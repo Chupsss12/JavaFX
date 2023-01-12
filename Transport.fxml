@@ -20,7 +20,7 @@
                <children>
                   <TableView layoutX="-19.0" layoutY="28.0" prefHeight="298.0" prefWidth="296.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                     <columns>
-                      <TableColumn prefWidth="75.0" text="ID" />
+                      <TableColumn prefWidth="75.0" text="IDTransport" />
                       <TableColumn prefWidth="106.0" text="Capacity" />
                         <TableColumn prefWidth="114.0" text="Type" />
                     </columns>
@@ -41,7 +41,7 @@
                       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                     </rowConstraints>
                      <children>
-                        <Label text="ID" />
+                        <Label text="IDTransport" />
                         <Label text="Capacity" GridPane.rowIndex="1" />
                         <Label text="Type" GridPane.rowIndex="2" />
                         <TextField editable="false" GridPane.columnIndex="1" />
