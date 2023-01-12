@@ -22,7 +22,7 @@
                     <columns>
                       <TableColumn prefWidth="40.0" text="IDclub" />
                       <TableColumn prefWidth="40.0" text="Name" />
-                        <TableColumn prefWidth="55.0" text="Date" />
+                        <TableColumn prefWidth="55.0" text="DateCreation" />
                         <TableColumn prefWidth="120.0" text="City" />
                         <TableColumn prefWidth="75.0" text="Coach" />
                         <TableColumn prefWidth="75.0" text="Sponsor" />
@@ -55,7 +55,7 @@
                      <children>
                         <Label text="IDclub" />
                         <Label text="Name" GridPane.rowIndex="1" />
-                        <Label text="Date" GridPane.rowIndex="2" />
+                        <Label text="DateCreation" GridPane.rowIndex="2" />
                         <Label text="City" GridPane.rowIndex="3" />
                         <Label text="Sponsor" GridPane.rowIndex="5" />
                         <Label text="Gym" GridPane.rowIndex="6" />
