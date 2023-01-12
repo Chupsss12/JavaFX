@@ -20,7 +20,7 @@
                <children>
                   <TableView layoutX="-19.0" layoutY="28.0" prefHeight="298.0" prefWidth="296.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                     <columns>
-                      <TableColumn prefWidth="75.0" text="ID" />
+                      <TableColumn prefWidth="75.0" text="IDCoachHistory" />
                       <TableColumn prefWidth="75.0" text="Coach" />
                         <TableColumn prefWidth="75.0" text="DateFrom" />
                         <TableColumn prefWidth="75.0" text="DateTo" />
@@ -43,7 +43,7 @@
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                     </rowConstraints>
                      <children>
-                        <Label text="ID" />
+                        <Label text="IDCoachHistory" />
                         <Label text="Coach" GridPane.rowIndex="1" />
                         <Label text="DateFrom" GridPane.rowIndex="2" />
                         <Label text="Date to" GridPane.rowIndex="3" />
@@ -55,7 +55,7 @@
                   </GridPane>
                   <ButtonBar layoutX="82.0" layoutY="244.0" prefHeight="40.0" prefWidth="200.0" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="5.0">
                     <buttons>
-                      <Button mnemonicParsing="false" text="Edit" />
+                      <Button mnemonicParsing="false" text="Delete" />
                         <Button mnemonicParsing="false" text="New" />
                     </buttons>
                   </ButtonBar>
